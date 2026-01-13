@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "multiplied_drops",
+  "version": "${version}",
+  "name": "Multiplied Drops",
+  "description": "Multiply your drops to cause chaos",
+  "authors": [],
+  "contact": {},
+  "license": "Apache-2.0",
+  "icon": "assets/multiplied_drops/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.multiplieddrops.MultipliedDropsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
